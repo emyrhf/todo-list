@@ -296,7 +296,7 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 
 ## Licença e Contato
 
-Licença: este projeto é distribuído sob a Licença MIT. Isso permite uso, cópia, modificação, fusão, publicação, distribuição, sublicenciamento e/ou venda de cópias do software, desde que o aviso de copyright e a nota de permissão sejam incluídos em todas as cópias ou partes substanciais do software. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo. Caso o arquivo LICENSE ainda não exista na raiz do repositório, recomenda-se sua criação com o texto oficial da licença MIT, disponível em https://opensource.org/license/mit.
+Licença: este projeto é distribuído sob a Licença MIT. Isso permite uso, cópia, modificação, fusão, publicação, distribuição, sublicenciamento e/ou venda de cópias do software, desde que o aviso de copyright e a nota de permissão sejam incluídos em todas as cópias ou partes substanciais do software. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo.
 
 **Autoria e manutenção:**
 
@@ -306,4 +306,4 @@ Licença: este projeto é distribuído sob a Licença MIT. Isso permite uso, có
 
 **Repositório:** https://github.com/emyrhf/todo-list
 
-Contribuições, sugestões e relatos de problemas podem ser encaminhados por meio de *issues* no repositório, quando disponibilizado publicamente.
+Contribuições, sugestões e relatos de problemas podem ser encaminhados por meio de *issues* no repositório.
