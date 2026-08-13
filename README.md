@@ -21,10 +21,8 @@ Trata-se de um projeto de caráter **educacional e formativo**, e não de um pro
 6. [Metodologia e Decisões de Design](#metodologia-e-decisões-de-design)
 7. [Funcionalidades](#funcionalidades)
 8. [Roadmap](#roadmap)
-9. [Relação com o Projeto EchoTasks](#relação-com-o-projeto-echotasks)
-10. [Histórico de Versões](#histórico-de-versões)
-11. [Como Citar Este Trabalho](#como-citar-este-trabalho)
-12. [Licença e Contato](#licença-e-contato)
+9. [Histórico de Versões](#histórico-de-versões)
+10. [Licença e Contato](#licença-e-contato)
 
 ---
 
@@ -150,7 +148,7 @@ java -version
 javac -version
 ```
 
-A saída deve indicar a versão 25 (ou compatível) da JDK. Caso não esteja instalada, obtenha a distribuição em [inserir link de download da JDK utilizada].
+A saída deve indicar a versão 25 (ou compatível) da JDK. Caso não esteja instalada, obtenha a distribuição em [Bellsoft](https://bell-sw.com/pages/downloads/?version=java-21&vtabs=true).
 
 ### 3. Compilar o projeto
 
