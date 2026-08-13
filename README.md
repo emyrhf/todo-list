@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Versão](https://img.shields.io/badge/versão-0.1.0-blue)
 ![Linguagem](https://img.shields.io/badge/Java-25-orange)
-![Licença](https://img.shields.io/badge/licença-%5Binserir%20dado%5D-lightgrey)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 
 Aplicação de linha de comando para gerenciamento de tarefas (*to-do list*), implementada em **Java**, estruturada segundo o padrão arquitetural **MVC (Model-View-Controller)**. O projeto tem como objetivo consolidar, por meio de desenvolvimento incremental, fundamentos de Programação Orientada a Objetos (POO), organização de projetos Java e boas práticas de engenharia de software aplicadas a um domínio de problema simples e bem delimitado: o controle de tarefas (criação, listagem, atualização, conclusão e exclusão).
 
@@ -288,16 +288,6 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 
 ---
 
-## Relação com o Projeto EchoTasks
-
-O **TodoList** e o **EchoTasks** são projetos **independentes**, sem dependência de código ou de execução entre si.
-
-O TodoList é desenvolvido em **Java**, com foco em fundamentos de POO, arquitetura de software e gerenciamento de dados. O **EchoTasks**, por sua vez, é um projeto planejado para desenvolvimento futuro em **Python**, com escopo voltado a inteligência artificial, reconhecimento de voz, automação e produtividade.
-
-O TodoList funciona como base de aprendizagem conceitual — não como biblioteca, dependência ou versão preliminar do EchoTasks.
-
----
-
 ## Histórico de Versões
 
 | Versão | Data | Descrição |
@@ -308,7 +298,7 @@ O TodoList funciona como base de aprendizagem conceitual — não como bibliotec
 
 ## Licença e Contato
 
-**Licença:** não foi identificado arquivo de licença (`LICENSE`) no repositório analisado. [inserir dado — tipo de licença a ser adotada, ex.: MIT, GPL-3.0, Apache-2.0, ou "todos os direitos reservados"].
+Licença: este projeto é distribuído sob a Licença MIT. Isso permite uso, cópia, modificação, fusão, publicação, distribuição, sublicenciamento e/ou venda de cópias do software, desde que o aviso de copyright e a nota de permissão sejam incluídos em todas as cópias ou partes substanciais do software. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo. Caso o arquivo LICENSE ainda não exista na raiz do repositório, recomenda-se sua criação com o texto oficial da licença MIT, disponível em https://opensource.org/license/mit.
 
 **Autoria e manutenção:**
 
