@@ -46,18 +46,6 @@ O **TodoList** não decorre de um artigo científico, dissertação ou tese publ
 - Estruturar o desenvolvimento de forma incremental e versionada;
 - Introduzir, em versões futuras, persistência de dados em banco relacional e interface gráfica (JavaFX).
 
-**Citação (artigo/tese associada):** não há publicação científica associada a este repositório no momento. Caso uma publicação venha a ser produzida a partir deste trabalho, a referência em formato BibTeX deverá ser inserida abaixo:
-
-```bibtex
-@misc{[inserir_chave_bibtex],
-  author       = {[inserir autor]},
-  title        = {[inserir título do artigo/tese]},
-  year         = {[inserir ano]},
-  howpublished = {[inserir veículo de publicação]},
-  note         = {[inserir dado adicional, se aplicável]}
-}
-```
-
 ---
 
 ## Arquitetura e Estrutura do Projeto
@@ -105,8 +93,6 @@ TodoList/
         └── TodoView.java
 ```
 
-> **Observação:** a estrutura de diretórios acima reflete exclusivamente os artefatos descritos na documentação do projeto até a versão `0.1.0`. Diretórios adicionais (ex.: `dist/`, `test/`, arquivos de build como `pom.xml` ou `build.gradle`) **não foram identificados** e, portanto, não constam desta árvore. [inserir dado] caso existam artefatos de build não documentados.
-
 ### Descrição das camadas
 
 **Model (`Todo`)**
@@ -153,7 +139,7 @@ Os passos abaixo assumem que o repositório já foi clonado localmente e que o t
 ### 1. Clonar o repositório
 
 ```powershell
-git clone [inserir URL do repositório]
+git clone https://github.com/emyrhf/todo-list
 cd TodoList
 ```
 
@@ -229,9 +215,6 @@ O uso de um atributo `static` (`proximoId`) para geração sequencial de identif
 
 **4. Desenvolvimento incremental por versão.**
 O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que cada versão introduza um único eixo de complexidade técnica (interface de terminal → autenticação de usuários → persistência → auditoria/histórico → interface gráfica). Essa metodologia reduz o risco de acoplamento prematuro entre conceitos ainda não consolidados individualmente.
-
-**5. Ausência de testes automatizados na versão atual.**
-Não foram identificados testes unitários ou de integração no código-fonte analisado. A introdução de testes automatizados é um item pendente, a ser tratado antes da versão `1.0.0` (ver Roadmap).
 
 ---
 
@@ -323,39 +306,6 @@ O TodoList funciona como base de aprendizagem conceitual — não como bibliotec
 
 ---
 
-## Como Citar Este Trabalho
-
-Este repositório não constitui, até o momento, uma publicação científica revisada por pares. Caso seja necessário referenciar o código-fonte (por exemplo, em trabalhos acadêmicos, relatórios técnicos ou materiais didáticos), sugerem-se os formatos abaixo, a serem completados com os dados definitivos do repositório.
-
-**Formato ABNT:**
-
-```
-[inserir sobrenome], [inserir nome]. TodoList: aplicação de gerenciamento de
-tarefas em Java. [S. l.], 2026. Disponível em: [inserir URL do repositório].
-Acesso em: [inserir data de acesso].
-```
-
-**Formato APA:**
-
-```
-[inserir sobrenome], [inserir inicial do nome]. (2026). TodoList: Aplicação de
-gerenciamento de tarefas em Java [Código-fonte]. [inserir URL do repositório]
-```
-
-**BibTeX:**
-
-```bibtex
-@software{todolist_java_2026,
-  author  = {[inserir autor]},
-  title   = {TodoList: Aplicação de Gerenciamento de Tarefas em Java},
-  year    = {2026},
-  version = {0.1.0},
-  url     = {[inserir URL do repositório]}
-}
-```
-
----
-
 ## Licença e Contato
 
 **Licença:** não foi identificado arquivo de licença (`LICENSE`) no repositório analisado. [inserir dado — tipo de licença a ser adotada, ex.: MIT, GPL-3.0, Apache-2.0, ou "todos os direitos reservados"].
@@ -364,8 +314,8 @@ gerenciamento de tarefas em Java [Código-fonte]. [inserir URL do repositório]
 
 | Papel | Nome | Contato |
 |---|---|---|
-| Autora / Mantenedora | Emily | [inserir e-mail ou perfil de contato] |
+| Autora | Emily | emyrhf.dev@gmail.com |
 
-**Repositório:** [inserir URL do repositório no GitHub]
+**Repositório:** https://github.com/emyrhf/todo-list
 
-Contribuições, sugestões e relatos de problemas podem ser encaminhados por meio de *issues* no repositório, quando disponibilizado publicamente. [inserir diretrizes de contribuição, se existentes — ex.: `CONTRIBUTING.md`].
+Contribuições, sugestões e relatos de problemas podem ser encaminhados por meio de *issues* no repositório, quando disponibilizado publicamente.
