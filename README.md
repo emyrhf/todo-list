@@ -1,7 +1,7 @@
 # TodoList — Java
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Versão](https://img.shields.io/badge/versão-0.1.0-blue)
+![Versão](https://img.shields.io/badge/versão-0.2.0-blue)
 ![Linguagem](https://img.shields.io/badge/Java-25-orange)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 
