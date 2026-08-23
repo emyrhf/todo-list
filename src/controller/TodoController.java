@@ -19,6 +19,7 @@ public class TodoController {
         for(Todo todo : this.tarefas){
             if(todo.getTitulo().equals(titulo)){
                 todo.setConcluido(true);
+                System.out.println("Tarefa concluída.");
                 return;
             }
         }

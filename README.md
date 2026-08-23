@@ -59,7 +59,7 @@ O projeto adota o padrão **MVC (Model-View-Controller)**, com separação estri
                          ▼
                   ┌─────────────┐
                   │ Controller  │
-                  │TodoController│
+                  │TodoController│  
                   └──────┬──────┘
                          │  manipula o estado
                          ▼
@@ -225,12 +225,18 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 - [x] Criação de tarefas
 - [x] Geração automática de ID
 - [x] Armazenamento utilizando `ArrayList`
-- [x] Listagem de tarefas
-- [x] Consulta de tarefas
+- [x] Listagem e consulta de tarefas
 - [x] Atualização de descrição
-- [x] Conclusão de tarefas
-- [x] Exclusão de tarefas
+- [x] Conclusão e Exclusão de tarefas
 - [x] `toString()` para representação das tarefas
+
+### Em andamento — v0.2.0
+
+- [x] Menu principal via `System.out.println`
+- [x] Entrada de dados via `Scanner`
+- [x] Criação, listagem, consulta, atualização, conclusão e exclusão via terminal
+- [ ] Implementar validação das entradas
+- [ ] Melhorar mensagens e tratamento de erros
 
 ---
 
@@ -239,8 +245,8 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 | Versão | Escopo principal | Status |
 |---|---|---|
 | `0.1.0` | Estrutura inicial (Model, Controller, View de teste, CRUD básico) | Concluída |
-| `0.2.0` | Menu interativo via terminal (`Scanner`) | Planejada |
-| `0.3.0` | Sistema de usuários (cadastro, login, associação de tarefas a usuários) | Planejada |
+| `0.2.0` | Menu interativo via terminal (`Scanner`) | Concluída |
+| `0.3.0` | Sistema de usuários (cadastro, login, associação de tarefas a usuários) | Em andamento |
 | `0.4.0` | Persistência de dados (JDBC/MySQL) | Planejada |
 | `0.5.0` | Histórico de atividades (auditoria de ações por usuário) | Planejada |
 | `0.6.0` | Interface gráfica com JavaFX | Planejada |
@@ -249,33 +255,32 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 <details>
 <summary><strong>Detalhamento por versão</strong></summary>
 
-**v0.2.0 — Menu interativo**
-- [ ] Menu principal via `System.out.println`
-- [ ] Entrada de dados via `Scanner`
-- [ ] Criação, listagem, consulta, atualização, conclusão e exclusão via terminal
-- [ ] Validação de entradas e tratamento de erros
-
 **v0.3.0 — Sistema de usuários**
+
 - [ ] Cadastro, login e logout de usuários
 - [ ] Associação de tarefas a usuários
 - [ ] Escopo de visualização/gerenciamento restrito ao usuário autenticado
 
 **v0.4.0 — Persistência de dados**
+
 - [ ] Definição e configuração do SGBD
 - [ ] Modelagem das tabelas
 - [ ] Conexão Java–banco via JDBC
 - [ ] Persistência e recuperação de usuários e tarefas
 
 **v0.5.0 — Histórico de atividades**
+
 - [ ] Registro de ações (usuário, tarefa, ação, data/hora)
 - [ ] Consulta de histórico
 
 **v0.6.0 — Interface gráfica**
+
 - [ ] Estudo de JavaFX
 - [ ] Telas de login, principal, formulário de tarefas e histórico
 - [ ] Navegação entre telas
 
 **v1.0.0 — Versão completa**
+
 - [ ] Consolidação de usuários, CRUD, persistência, histórico e GUI
 - [ ] Validação de dados e tratamento de erros
 - [ ] Testes automatizados
@@ -291,6 +296,7 @@ O roadmap do projeto (ver seção [Roadmap](#roadmap)) foi estruturado para que 
 | Versão | Data | Descrição |
 |---|---|---|
 | `0.1.0` | 13/08/2026 | Estrutura inicial do projeto; camadas Model, Controller e View (de teste); operações de criação, listagem, atualização, conclusão e exclusão de tarefas. |
+| `0.2.0` (parcial) | 14/08/2026 | Substituição da View de teste por menu interativo via terminal (`System.out.println` + `Scanner`); implementadas as operações de criação, listagem, consulta, atualização, conclusão e exclusão de tarefas via entrada do usuário. Validação de entradas e tratamento de erros ainda pendentes. |
 
 ---
 
@@ -302,7 +308,7 @@ Licença: este projeto é distribuído sob a Licença MIT. Isso permite uso, có
 
 | Papel | Nome | Contato |
 |---|---|---|
-| Autora | Emily | emyrhf.dev@gmail.com |
+| Autora | Emily Furtado | emyrhf.dev@gmail.com |
 
 **Repositório:** https://github.com/emyrhf/todo-list
 

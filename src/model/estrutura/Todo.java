@@ -45,10 +45,9 @@ public class Todo {
     }
 
     @Override public String toString() {
-        return  "id = " + id +
-                " | " + titulo +
-                " | descricao = " + descricao +
-                " | concluido = " + concluido +
-                '}';
+        return  "ID da Tarefa: " + id +
+                " | Título: " + titulo +
+                " | Descrição: " + descricao +
+                " | Concluído: " + concluido;
     }
 }   
